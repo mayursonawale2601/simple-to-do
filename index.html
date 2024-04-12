@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- <header class="hero">
+    <h1>Get Organized!</h1>
+    <p>Take control of your day with our simple and effective to-do list app.</p>
+  </header> -->
+
+  <header class="hero">
+    <img src="images/Checklist.png" alt="Checklist icon">
+    <h1>Get Organized: Your Simple To-Do List</h1>
+    <p>Boost your productivity and stay on top of your tasks with our easy-to-use to-do list app.</p>
+  </header>
+  <main class="features">
+    <h2>Key Features</h2>
+    <section>
+      <img src="images/checkmark.png" alt="Check mark icon">
+      <h3>Simple and Intuitive Interface</h3>
+      <p>Our clean and user-friendly design makes creating and managing your tasks a breeze.</p>
+    </section>
+    <section>
+      <img src="images/bell-icon.png" alt="Bell icon">
+      <h3>Set Reminders</h3>
+      <p>Never miss a deadline again! Set reminders for your tasks and receive notifications.</p>
+    </section>
+  </main>
+  
+  <div class="container">
+    <h1>To-Do List</h1>
+    <input type="text" id="taskInput" placeholder="Enter task">
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
